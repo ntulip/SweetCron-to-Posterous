@@ -1,0 +1,4 @@
+1) Prepare the feeds found in the table "feeds"
+	This will help with posterous' "Via: {URL}" links
+	If you don't, then comment out the sourceLink key in the $values array
+
