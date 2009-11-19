@@ -2,3 +2,11 @@
 	This will help with posterous' "Via: {URL}" links
 	If you don't, then comment out the sourceLink key in the $values array
 
+!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!
+There are some issues today where the loop could go on forver.
+So - watch it. will fix that soon or fork this and change from while loop
+to if($totalRecords > 0) just increase or decrease the batch size accordingly
+
+Coming Soon:
+Ability to import item comments
+
